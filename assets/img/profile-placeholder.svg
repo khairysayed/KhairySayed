@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" class="rounded-2xl">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0e7490" />
+    </linearGradient>
+    <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="400" height="400" rx="32" fill="url(#avatarGrad)" />
+
+  <!-- Subtle Circuit Traces -->
+  <g stroke="url(#circuitGrad)" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M40,60 L120,60 L150,90 L220,90" />
+    <circle cx="220" cy="90" r="4" fill="#38bdf8" />
+    <path d="M360,320 L280,320 L250,290 L180,290" />
+    <circle cx="180" cy="290" r="4" fill="#38bdf8" />
+    <path d="M50,220 L90,220 L110,240" />
+    <circle cx="110" cy="240" r="3" fill="#38bdf8" />
+    <path d="M350,140 L310,140 L290,120" />
+    <circle cx="290" cy="120" r="3" fill="#38bdf8" />
+  </g>
+
+  <!-- Academic Silhouette Frame -->
+  <g fill="#f8fafc" opacity="0.92">
+    <!-- Head -->
+    <circle cx="200" cy="155" r="54" />
+    <!-- Shoulders / Torso -->
+    <path d="M110,320 C110,250 150,230 200,230 C250,230 290,250 290,320 Z" />
+    <!-- Academic collar accent -->
+    <path d="M175,235 L200,265 L225,235 Z" fill="#38bdf8" opacity="0.8" />
+  </g>
+
+  <!-- Badge at bottom -->
+  <rect x="70" y="340" width="260" height="32" rx="16" fill="#0369a1" opacity="0.9" />
+  <text x="200" y="361" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+    PHOTO PLACEHOLDER (assets/img/profile.jpg)
+  </text>
+</svg>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "proj-1",
+    "title": "Smart Grid Interdependencies & Resilience Assessment",
+    "role": "Fulbright Research Scholar / Co-Investigator",
+    "collaboration": "Smart Grid Interdependencies Laboratory, City College of New York (CCNY), USA",
+    "period": "2024 – 2025",
+    "description": "Investigating key performance indicators and co-optimization frameworks for system resiliency in power networks integrating high penetrations of renewable energy and electric vehicle charging infrastructures.",
+    "status": "Ongoing / Active Research Collaboration",
+    "fundingAgency": "[Funding Agency / Fulbright Program / IIE]",
+    "grantNumber": "[Add Grant ID or Project Ref Number if applicable]",
+    "tags": ["Smart Grids", "Resilience", "Electric Vehicles", "CCNY"]
+  },
+  {
+    "id": "proj-2",
+    "title": "Physics-Informed AI Digital Twins for Real-Time Multi-Carrier Energy Hubs",
+    "role": "Principal Researcher",
+    "collaboration": "International Collaborative Working Group",
+    "period": "2024 – 2026",
+    "description": "Developing physics-informed neural models and real-time digital twin architectures to co-optimize multi-carrier energy networks, transmission expansion, and battery storage under stochastic renewable fluctuations.",
+    "status": "Active Research Project",
+    "fundingAgency": "[Add Funding Agency / STDF / Institutional Support]",
+    "grantNumber": "[Add Grant ID or Project Ref Number]",
+    "tags": ["Digital Twins", "Physics-Informed AI", "Energy Hubs", "Energy Storage"]
+  },
+  {
+    "id": "proj-3",
+    "title": "Battery Energy Storage State-of-Health (SoH) Estimation & Management",
+    "role": "Lead Researcher",
+    "collaboration": "Department of Electrical Engineering, Sohag University",
+    "period": "2023 – 2025",
+    "description": "Formulating short-term discharge-based analytical models and intelligent estimation algorithms for assessing lithium-ion battery degradation and extending lifecycle in microgrid applications.",
+    "status": "Active / Published Findings",
+    "fundingAgency": "[Add Funding Agency / University Research Fund]",
+    "grantNumber": "[Add Grant ID]",
+    "tags": ["Battery Energy Storage", "Lithium-Ion BMS", "State of Health"]
+  },
+  {
+    "id": "proj-placeholder",
+    "title": "[Funded Research Project Title Placeholder]",
+    "role": "[Principal Investigator (PI) / Co-PI]",
+    "collaboration": "[Partner Universities / Industry Collaborators]",
+    "period": "[e.g., 2025 – 2027]",
+    "description": "[Brief 2-3 sentence overview of project objectives, methodology, and target milestones. You can edit this directly in data/projects.json without touching code.]",
+    "status": "[Placeholder: In Preparation / Under Review / Active]",
+    "fundingAgency": "[Placeholder: e.g. STDF / ASRT / Horizon Europe / Bilateral Grant]",
+    "grantNumber": "[Grant # Placeholder]",
+    "tags": ["Research Grant", "Placeholder"]
+  }
+]

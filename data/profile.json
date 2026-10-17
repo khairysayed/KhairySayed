@@ -1,0 +1,176 @@
+{
+  "name": "Dr. Khairy Sayed",
+  "fullName": "Khairy Sayed (Khairy Fathy)",
+  "title": "Associate Professor of Electrical Engineering",
+  "department": "Department of Electrical Engineering",
+  "faculty": "Faculty of Engineering",
+  "institution": "Sohag University",
+  "country": "Egypt",
+  "location": "Sohag, Egypt",
+  "secondaryInstitution": "City University of New York (CUNY) / City College of New York (CCNY)",
+  "tagline": "Fulbright Research Scholar | Power Electronics, Floating-PV, Smart Grids, AI Energy Optimization & Net-Zero Systems",
+  "bio": "Dr. Khairy Sayed is an Associate Professor of Electrical Engineering at Sohag University, Egypt, and a former Fulbright Research Scholar at the Smart Grid Interdependencies Laboratory, City College of New York (CCNY), CUNY, USA (2023–2025). He received his B.Sc. in Electrical Engineering from Assiut University (1997), his M.Eng. from Kyungnam University, South Korea (2007), and his Ph.D. from Assiut University (2013), alongside postdoctoral research at the University of Ontario Institute of Technology, Canada (2016). With over 12 years of academic leadership and a prior decade of SCADA/DMS operational engineering in electricity distribution, his research focuses on cutting-edge renewable integration, Photovoltaic Systems (Ground-mounted, Floating-PV, Agri-PV), the Energy-Water-Food Nexus, AI-enhanced techno-economic optimization, and battery storage.",
+  "metrics": {
+    "citations": "2,347+",
+    "hIndex": 27,
+    "publicationsCount": 204,
+    "booksPublished": 6,
+    "bookChapters": 7,
+    "studentsSupervised": "30+",
+    "industryExperienceYears": "10+"
+  },
+  "contact": {
+    "email": "k.sayed@ccny.cuny.edu",
+    "institutionalEmail": "khairy_sayed@eng.sohag.edu.eg",
+    "phone": "+20 01061241243",
+    "office": "Department of Electrical Engineering, Faculty of Engineering, Sohag University, New Sohag City, Egypt",
+    "linkedin": "https://www.linkedin.com/in/khairy-sayed-11996633b/",
+    "cvPath": "assets/cv/Dr_Khairy_Sayed_CV.pdf"
+  },
+  "academicProfiles": {
+    "googleScholar": {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=gD0R0hQAAAAJ&hl=en",
+      "id": "gD0R0hQAAAAJ"
+    },
+    "scopus": {
+      "name": "Scopus",
+      "url": "https://www.scopus.com/authid/detail.url?authorId=24780869400",
+      "id": "24780869400"
+    },
+    "orcid": {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0001-8871-5358",
+      "id": "0000-0001-8871-5358"
+    },
+    "webOfScience": {
+      "name": "Web of Science / Publons",
+      "url": "https://publons.com/researcher/1171925/khairy-sayed/metrics/",
+      "id": "E-6498-2015"
+    },
+    "linkedin": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/khairy-sayed-11996633b/",
+      "id": "khairy-sayed-11996633b"
+    }
+  },
+  "researchInterests": [
+    {
+      "title": "Photovoltaic Systems (Ground, Floating-PV & Agri-PV)",
+      "icon": "sun",
+      "description": "Design, thermal modeling, MPPT algorithms, and yield optimization for land-based, water-borne Floating-PV, and dual-use Agricultural Photovoltaic setups."
+    },
+    {
+      "title": "Energy-Water-Food Nexus & Desalination Coupling",
+      "icon": "droplet",
+      "description": "Renewable energy integration with water desalination plants, multi-generation systems, and climate-smart sustainable water-energy infrastructure."
+    },
+    {
+      "title": "Smart Grids, Microgrids & Resiliency",
+      "icon": "grid",
+      "description": "Decentralized control, AC/DC microgrid architectures, islanding mitigation, and fault classification using fuzzy-neuro algorithms."
+    },
+    {
+      "title": "Power Electronics & Distributed Energy Resources",
+      "icon": "cpu",
+      "description": "High-efficiency soft-switching DC-DC converters, multi-level inverters, harmonic minimization, and advanced grid-forming converters."
+    },
+    {
+      "title": "Electric Vehicles & Energy Management (V2G)",
+      "icon": "zap",
+      "description": "Fast charging infrastructure, smart charging schedules, Vehicle-to-Grid (V2G) bidirectional conversion, and fleet energy optimization."
+    },
+    {
+      "title": "AI Forecasting & Techno-Economic Optimization",
+      "icon": "brain",
+      "description": "Artificial intelligence, machine learning, physics-informed digital twins, and metaheuristic solvers for real-time dispatch and grid stability."
+    },
+    {
+      "title": "Battery Energy Storage & BMS",
+      "icon": "battery",
+      "description": "Lithium-ion degradation analysis, short-term discharge State-of-Health (SoH) diagnostics, and hybrid energy storage system management."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. in Electrical Engineering",
+      "institution": "Assiut University / Sohag University",
+      "location": "Egypt",
+      "year": "2013",
+      "field": "Electrical Power and Machines"
+    },
+    {
+      "degree": "M.Eng. in Electrical Engineering",
+      "institution": "Kyungnam University",
+      "location": "South Korea",
+      "year": "2007",
+      "field": "Electrical Energy Saving Research Center"
+    },
+    {
+      "degree": "B.Sc. in Electrical Engineering",
+      "institution": "Assiut University",
+      "location": "Egypt",
+      "year": "1997",
+      "field": "Power and Machines"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Associate Professor",
+      "institution": "Sohag University, Faculty of Engineering",
+      "location": "Egypt",
+      "period": "2019 – Present",
+      "details": "Research group leadership, graduate student supervision (30+ students), curriculum design, and department leadership."
+    },
+    {
+      "role": "Fulbright Research Scholar",
+      "institution": "City University of New York (CCNY / CUNY)",
+      "location": "New York, USA",
+      "period": "2023 – 2025",
+      "details": "Smart Grid Interdependencies Laboratory; investigating power conversion for electric vehicles, grid resilience, and digital twins."
+    },
+    {
+      "role": "Postdoctoral Researcher",
+      "institution": "University of Ontario Institute of Technology",
+      "location": "Canada",
+      "period": "2016",
+      "details": "Advanced power conversion systems, high-efficiency topologies, and renewable grid interface controls."
+    },
+    {
+      "role": "Assistant Professor",
+      "institution": "Sohag University, Faculty of Engineering",
+      "location": "Egypt",
+      "period": "2013 – 2019",
+      "details": "Instruction in power electronics, renewable energy, electric machinery, and capstone engineering projects."
+    },
+    {
+      "role": "Power System Control Engineer",
+      "institution": "Middle Egypt Electricity Distribution Company",
+      "location": "Egypt",
+      "period": "1998 – 2008",
+      "details": "10 years operational control room engineering, distribution automation, SCADA, and Distribution Management Systems (DMS)."
+    }
+  ],
+  "honorsAndAwards": [
+    {
+      "title": "Fulbright Research Scholar Fellowship",
+      "organization": "Fulbright Program / IIE & Smart Grid Interdependencies Lab, CCNY, USA",
+      "year": "2023 – 2025"
+    },
+    {
+      "title": "Sohag University Encouragement Award in Engineering Sciences",
+      "organization": "Sohag University, Egypt",
+      "year": "2016 – 2017"
+    },
+    {
+      "title": "Best Student Paper Award",
+      "organization": "57th International Appliances Technical Conference (IATC), Chicago, USA",
+      "year": "2006"
+    },
+    {
+      "title": "Member",
+      "organization": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "year": "Active"
+    }
+  ]
+}

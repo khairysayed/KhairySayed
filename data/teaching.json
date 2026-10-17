@@ -1,0 +1,42 @@
+[
+  {
+    "id": "teach-1",
+    "courseTitle": "Power Electronics & Energy Conversion",
+    "level": "Undergraduate",
+    "department": "Electrical Engineering Department",
+    "institution": "Sohag University",
+    "courseCode": "[Add Course Code, e.g. EE 3xx]",
+    "description": "Analysis and design of power electronic converters, switching topologies, inverter controls, DC-DC buck/boost converters, and industrial applications.",
+    "topics": ["DC-DC Converters", "Inverters", "PWM Strategies", "Thermal Management", "Grid Interfaces"]
+  },
+  {
+    "id": "teach-2",
+    "courseTitle": "Renewable Energy Systems & Microgrid Integration",
+    "level": "Undergraduate / Postgraduate",
+    "department": "Electrical Engineering Department",
+    "institution": "Sohag University",
+    "courseCode": "[Add Course Code, e.g. EE 4xx]",
+    "description": "Principles of photovoltaic generation, wind power systems, energy storage integration, microgrid controls, islanding detection, and grid connectivity standards.",
+    "topics": ["Photovoltaic Systems", "Wind Power", "Microgrid Architecture", "Storage Integration", "Protection"]
+  },
+  {
+    "id": "teach-3",
+    "courseTitle": "Electric Machines & Power Distribution",
+    "level": "Undergraduate",
+    "department": "Electrical Engineering Department",
+    "institution": "Sohag University",
+    "courseCode": "[Add Course Code]",
+    "description": "Operational principles of induction, synchronous, and DC machines, distribution system design, load flow, and SCADA automation basics.",
+    "topics": ["AC/DC Machines", "Distribution Networks", "SCADA Overview", "Transformer Analysis"]
+  },
+  {
+    "id": "teach-placeholder",
+    "courseTitle": "[Additional Undergraduate or Postgraduate Course Placeholder]",
+    "level": "[Postgraduate / Undergraduate]",
+    "department": "Electrical Engineering Department",
+    "institution": "Sohag University",
+    "courseCode": "[Add Course Code]",
+    "description": "[Add course description or objectives here. You can edit this directly in data/teaching.json.]",
+    "topics": ["[Topic 1]", "[Topic 2]", "[Topic 3]"]
+  }
+]
