@@ -1,168 +1,1107 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic profile, research, publications and teaching of Dr. Khairy Sayed, Associate Professor of Electrical Engineering at Sohag University, Egypt.">
-  <title>Dr. Khairy Sayed | Academic Profile</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #243247;
-      background: #ffffff;
-      line-height: 1.7;
+  <title>Dr. Khairy Sayed | Associate Professor of Electrical Engineering | Sohag University</title>
+  <meta name="description" content="Academic website of Dr. Khairy Sayed - Associate Professor of Electrical Engineering at Sohag University, Egypt. Former Fulbright Research Scholar at CCNY. Research in Smart Grids, Renewable Energy, Power Electronics, AI Digital Twins, and Battery Storage.">
+  <meta name="keywords" content="Khairy Sayed, Sohag University, Smart Grids, Power Electronics, Renewable Energy, Electric Vehicles, Battery Storage, Digital Twins, Fulbright Scholar, Electrical Engineering">
+  <meta name="author" content="Dr. Khairy Sayed">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr. Khairy Sayed | Academic Profile & Research">
+  <meta property="og:description" content="Associate Professor of Electrical Engineering at Sohag University, Egypt. Former Fulbright Scholar at City College of New York. Research in Smart Grids, AI Energy Digital Twins, and Battery Storage.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+              950: '#082f49',
+            },
+            energy: {
+              cyan: '#06b6d4',
+              teal: '#14b8a6',
+              emerald: '#10b981',
+              navy: '#0f172a',
+            }
+          }
+        }
+      }
     }
-    header {
-      background: #142c4e;
-      color: white;
-      padding: 42px 20px;
-      text-align: center;
-    }
-    header h1 { margin: 0; font-size: 2.3rem; }
-    header p { margin: 8px 0; }
-    nav {
-      background: #f1f5f9;
-      padding: 14px;
-      text-align: center;
-    }
-    nav a {
-      color: #142c4e;
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: bold;
-    }
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 25px 20px;
-    }
-    h2 {
-      color: #142c4e;
-      border-bottom: 2px solid #168b91;
-      padding-bottom: 8px;
-    }
-    .button {
-      display: inline-block;
-      padding: 10px 17px;
-      margin: 8px 5px;
-      background: #168b91;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-    .research {
-      background: #f5f8fb;
-      padding: 15px 20px;
-      border-radius: 6px;
-    }
-    footer {
-      background: #142c4e;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 25px;
-    }
-    @media (max-width: 600px) {
-      header h1 { font-size: 1.8rem; }
-      nav a { display: inline-block; margin: 5px 8px; }
-    }
-  </style>
+  </script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Favicon placeholder SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 </head>
-<body>
-  <header>
-    <h1>Dr. Khairy Sayed</h1>
-    <p>Associate Professor of Electrical Engineering</p>
-    <p>Sohag University, Egypt</p>
-    <p>Research | Innovation | Education</p>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 antialiased min-h-screen flex flex-col selection:bg-cyan-500 selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BAR: International Collaboration Opportunity -->
+  <aside class="bg-gradient-to-r from-cyan-900 via-slate-900 to-sky-950 text-white text-xs py-2 px-4 border-b border-cyan-800/40">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-cyan-400 beacon-dot"></span>
+        <span class="font-semibold text-cyan-300">Open for Collaborations:</span>
+        <span class="text-slate-200">Visiting Researcher Opportunities, International Research Grants & Joint Papers</span>
+      </div>
+      <a href="#collaboration" class="inline-flex items-center gap-1 font-semibold text-cyan-300 hover:text-white underline underline-offset-2 transition-colors">
+        Learn More & Inquire &rarr;
+      </a>
+    </div>
+  </aside>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-50 glass-nav border-b border-slate-200/80 dark:border-slate-800/80 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        
+        <!-- Brand / Identity -->
+        <a href="#home" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-sky-700 flex items-center justify-center text-white font-bold text-lg shadow-sm group-hover:scale-105 transition-transform">
+            KS
+          </div>
+          <div>
+            <div class="font-bold text-base md:text-lg text-slate-900 dark:text-white leading-tight">
+              Dr. Khairy Sayed
+            </div>
+            <div class="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">
+              Associate Professor &bull; Sohag University
+            </div>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-1 xl:space-x-2 text-sm font-medium">
+          <a href="#home" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Home</a>
+          <a href="#about" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">About</a>
+          <a href="#research" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Research</a>
+          <a href="#publications" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Publications</a>
+          <a href="#projects" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Projects</a>
+          <a href="#teaching" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Teaching</a>
+          <a href="#cv" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">CV</a>
+          <a href="#contact" class="nav-link px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Contact</a>
+        </nav>
+
+        <!-- Right Side: CV Download Button + Dark Mode Toggle -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          
+          <!-- Download CV Quick Button -->
+          <a href="assets/cv/Dr_Khairy_Sayed_CV.pdf" download="Dr_Khairy_Sayed_CV.pdf" 
+             class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-cyan-50 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-800 hover:bg-cyan-100 dark:hover:bg-cyan-900/50 transition-colors shadow-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            <span>CV (PDF)</span>
+          </a>
+
+          <!-- Theme Toggle Button -->
+          <button type="button" class="theme-toggle-btn p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Toggle Dark/Light Mode" aria-label="Toggle Dark/Light Mode">
+            <!-- Sun (shows in dark mode) -->
+            <svg class="w-5 h-5 hidden dark:block text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+            <!-- Moon (shows in light mode) -->
+            <svg class="w-5 h-5 block dark:hidden text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
+          </button>
+
+          <!-- Mobile Hamburger Menu Button -->
+          <button id="mobile-menu-btn" type="button" class="lg:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Toggle mobile menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Dropdown -->
+    <div id="mobile-menu" class="hidden lg:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 pt-2 pb-4 space-y-1">
+      <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Home</a>
+      <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">About</a>
+      <a href="#research" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Research</a>
+      <a href="#publications" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Publications (198)</a>
+      <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Projects</a>
+      <a href="#teaching" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Teaching</a>
+      <a href="#cv" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">CV</a>
+      <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Contact</a>
+      <div class="pt-2 border-t border-slate-100 dark:border-slate-800 flex gap-2">
+        <a href="assets/cv/Dr_Khairy_Sayed_CV.pdf" download="Dr_Khairy_Sayed_CV.pdf" class="flex-1 text-center py-2 px-3 rounded-lg text-xs font-semibold bg-cyan-600 text-white">
+          Download CV
+        </a>
+      </div>
+    </div>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#publications">Publications</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="flex-grow">
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Welcome to my academic website. I am an Associate Professor
-        in Electrical Engineering at Sohag University, Egypt.
-        My work focuses on intelligent energy systems, renewable
-        energy integration, power electronics, and electric mobility.
-      </p>
-      <p>
-        My professional experience combines university teaching,
-        scientific research, and industrial experience in electricity
-        distribution and supervisory control systems.
-      </p>
-      <a class="button"
-         href="https://orcid.org/0000-0001-8871-5358">
-        View ORCID Profile
-      </a>
-    </section>
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="relative py-12 md:py-20 lg:py-24 bg-grid-pattern border-b border-slate-200/60 dark:border-slate-800/60 overflow-hidden">
+      <!-- Glow effect circles in background -->
+      <div class="absolute -top-32 -left-32 w-96 h-96 bg-cyan-500/10 dark:bg-cyan-500/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute top-1/2 -right-32 w-96 h-96 bg-sky-500/10 dark:bg-sky-500/15 rounded-full blur-3xl pointer-events-none"></div>
 
-    <section id="research">
-      <h2>Research Interests</h2>
-      <div class="research">
-        <ul>
-          <li>Renewable Energy and Photovoltaic Systems</li>
-          <li>Smart Grids and Microgrids</li>
-          <li>Electric Vehicles and Energy Management</li>
-          <li>Power Electronics and Energy Conversion</li>
-          <li>Artificial Intelligence for Energy Systems</li>
-          <li>Digital Twins and Battery Energy Storage</li>
-        </ul>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          <!-- Left Column: Bio, Titles, Buttons, Academic Badges (7 cols) -->
+          <div class="lg:col-span-7 space-y-6">
+            
+            <!-- International Distinction Pill -->
+            <div class="inline-flex flex-wrap items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold bg-cyan-100/80 dark:bg-cyan-950/80 text-cyan-900 dark:text-cyan-200 border border-cyan-300 dark:border-cyan-800 badge-glow">
+              <span class="flex h-2 w-2 relative">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+              </span>
+              <span>Former Fulbright Research Scholar &bull; City College of New York (CCNY)</span>
+            </div>
+
+            <!-- Main Heading & Title -->
+            <div>
+              <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">
+                Dr. Khairy Sayed
+              </h1>
+              <p class="mt-2 text-lg sm:text-xl font-semibold text-cyan-700 dark:text-cyan-400">
+                Associate Professor of Electrical Engineering
+              </p>
+              <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 mt-1 flex items-center gap-2">
+                <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+                Electrical Engineering Department &bull; Sohag University, Egypt
+              </p>
+            </div>
+
+            <!-- Summary Intro -->
+            <p class="text-base text-slate-600 dark:text-slate-300 leading-relaxed">
+              Advancing the resilience, intelligence, and decarbonization of modern power systems through research in 
+              <strong class="text-slate-900 dark:text-white">Smart Grids & Microgrids</strong>, 
+              <strong class="text-slate-900 dark:text-white">AI Energy Digital Twins</strong>, 
+              <strong class="text-slate-900 dark:text-white">Power Electronics</strong>, and 
+              <strong class="text-slate-900 dark:text-white">Battery Storage Systems (BMS)</strong>. Bridging academic rigor with 10 years of prior SCADA & power grid operational experience.
+            </p>
+
+            <!-- Research Theme Badges -->
+            <div class="flex flex-wrap gap-2 pt-1">
+              <span class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">⚡ Smart Grids</span>
+              <span class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">☀️ Renewable Integration</span>
+              <span class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">🚗 Electric Vehicles & V2G</span>
+              <span class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">🧠 AI & Digital Twins</span>
+              <span class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">🔋 Battery Energy Storage</span>
+            </div>
+
+            <!-- Primary Action Buttons -->
+            <div class="flex flex-wrap items-center gap-3 pt-2">
+              <a href="assets/cv/Dr_Khairy_Sayed_CV.pdf" download="Dr_Khairy_Sayed_CV.pdf" 
+                 class="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-bold bg-cyan-600 hover:bg-cyan-700 text-white shadow-md hover:shadow-cyan-500/25 transition-all">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                <span>Download CV</span>
+              </a>
+
+              <a href="#publications" 
+                 class="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 border border-slate-200 dark:border-slate-700 hover:border-cyan-500 hover:text-cyan-600 dark:hover:text-cyan-400 transition-all shadow-sm">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+                <span>Publications (198)</span>
+              </a>
+
+              <a href="#collaboration" 
+                 class="inline-flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-semibold text-cyan-700 dark:text-cyan-300 hover:underline">
+                <span>Collaborate & Visiting</span> &rarr;
+              </a>
+            </div>
+
+            <!-- Verified Academic Profile Links -->
+            <div class="pt-4 border-t border-slate-200 dark:border-slate-800">
+              <span class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2.5">
+                Verified Academic Profiles & Research Metrics
+              </span>
+              <div class="flex flex-wrap items-center gap-2.5">
+                
+                <!-- Google Scholar -->
+                <a href="https://scholar.google.com/citations?user=gD0R0hQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-all shadow-sm">
+                  <svg class="w-3.5 h-3.5 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 24a12 12 0 1 1 12-12 12 12 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/>
+                    <path d="M12 5l7 5-7 5-7-5z"/>
+                  </svg>
+                  <span>Google Scholar</span>
+                </a>
+
+                <!-- Scopus -->
+                <a href="https://www.scopus.com/authid/detail.url?authorId=24780869400" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-orange-500 hover:text-orange-600 dark:hover:text-orange-400 transition-all shadow-sm">
+                  <span class="w-3.5 h-3.5 rounded-full bg-orange-600 text-[10px] text-white flex items-center justify-center font-bold font-mono">S</span>
+                  <span>Scopus ID: 24780869400</span>
+                </a>
+
+                <!-- ORCID -->
+                <a href="https://orcid.org/0000-0001-8871-5358" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-lime-500 hover:text-lime-600 dark:hover:text-lime-400 transition-all shadow-sm">
+                  <span class="w-3.5 h-3.5 rounded-full bg-lime-500 text-[10px] text-white flex items-center justify-center font-bold">iD</span>
+                  <span>ORCID</span>
+                </a>
+
+                <!-- Web of Science / Publons -->
+                <a href="https://publons.com/researcher/1171925/khairy-sayed/metrics/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-purple-500 hover:text-purple-600 dark:hover:text-purple-400 transition-all shadow-sm">
+                  <span class="w-3.5 h-3.5 rounded-full bg-purple-600 text-[9px] text-white flex items-center justify-center font-bold">W</span>
+                  <span>ResearcherID: E-6498-2015</span>
+                </a>
+
+                <!-- IEEE Member Badge -->
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">
+                  <span>IEEE Member</span>
+                </span>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Academic Portrait Card & Fast Stats (5 cols) -->
+          <div class="lg:col-span-5">
+            <div class="glass-card p-6 rounded-3xl shadow-xl border border-slate-200/80 dark:border-slate-800/80 relative">
+              
+              <!-- Photo Container -->
+              <div class="relative aspect-square max-w-[340px] mx-auto rounded-2xl overflow-hidden shadow-lg bg-slate-900 border-2 border-cyan-500/20">
+                <img src="assets/img/profile-placeholder.svg" alt="Dr. Khairy Sayed Photo Placeholder" class="w-full h-full object-cover">
+                
+                <!-- Quick hint overlay for user to replace photo -->
+                <div class="absolute bottom-0 inset-x-0 bg-slate-950/80 backdrop-blur-sm p-3 text-center text-xs text-cyan-300">
+                  <p class="font-semibold">Dr. Khairy Sayed</p>
+                  <p class="text-[11px] text-slate-400">Drop your photo at <code>assets/img/profile.jpg</code></p>
+                </div>
+              </div>
+
+              <!-- Fast Quick Stats Grid -->
+              <div class="grid grid-cols-3 gap-3 mt-5 pt-5 border-t border-slate-200 dark:border-slate-800 text-center">
+                <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/50">
+                  <div class="text-xl font-extrabold text-cyan-600 dark:text-cyan-400">198</div>
+                  <div class="text-[11px] font-medium text-slate-500 dark:text-slate-400">Publications</div>
+                </div>
+                <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/50">
+                  <div class="text-xl font-extrabold text-cyan-600 dark:text-cyan-400">10+</div>
+                  <div class="text-[11px] font-medium text-slate-500 dark:text-slate-400">SCADA/Industry Yrs</div>
+                </div>
+                <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700/50">
+                  <div class="text-xl font-extrabold text-cyan-600 dark:text-cyan-400">USA &bull; KR</div>
+                  <div class="text-[11px] font-medium text-slate-500 dark:text-slate-400">Intl Experience</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
-    <section id="teaching">
-      <h2>Teaching</h2>
-      <p>
-        Teaching interests include computer-controlled systems,
-        PLC programming, automation, renewable energy systems,
-        and electrical engineering.
-      </p>
+    <!-- 2. HIGH PRIORITY CALLOUT: INTERNATIONAL COLLABORATIONS & VISITING RESEARCHER -->
+    <section id="collaboration" class="py-12 bg-gradient-to-br from-slate-900 via-sky-950 to-cyan-950 text-white relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="rounded-3xl p-8 md:p-10 border border-cyan-500/30 bg-slate-900/60 backdrop-blur-md shadow-2xl relative overflow-hidden">
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <div class="lg:col-span-8 space-y-4">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">
+                <span>International Research Partnerships</span>
+              </div>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+                Visiting Researcher Inquiries, Joint Grant Proposals & Collaborations
+              </h2>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Dr. Khairy Sayed welcomes international academic invitations, visiting professorships/researcher roles, and joint consortium proposals for international funding schemes (e.g., STDF, Fulbright Alumni initiatives, Horizon Europe, bilateral research grants).
+              </p>
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                <div class="flex items-start gap-2.5 text-xs text-slate-200">
+                  <span class="text-cyan-400 font-bold text-base">&bull;</span>
+                  <span><strong>Smart Grid Resilience & Digital Twins:</strong> Co-optimization and multi-carrier energy hubs.</span>
+                </div>
+                <div class="flex items-start gap-2.5 text-xs text-slate-200">
+                  <span class="text-cyan-400 font-bold text-base">&bull;</span>
+                  <span><strong>AI & Battery Storage Management:</strong> Lithium-ion SoH estimation & degradation models.</span>
+                </div>
+                <div class="flex items-start gap-2.5 text-xs text-slate-200">
+                  <span class="text-cyan-400 font-bold text-base">&bull;</span>
+                  <span><strong>Electric Vehicle Integration:</strong> Fleet charging control & Vehicle-to-Grid (V2G) stability.</span>
+                </div>
+                <div class="flex items-start gap-2.5 text-xs text-slate-200">
+                  <span class="text-cyan-400 font-bold text-base">&bull;</span>
+                  <span><strong>Advanced Power Electronics:</strong> Soft-switching converters & renewable power conditioners.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-center">
+              <a href="#contact" class="text-center px-6 py-3.5 rounded-xl text-sm font-bold bg-cyan-500 hover:bg-cyan-400 text-slate-950 shadow-lg hover:shadow-cyan-400/20 transition-all">
+                Initiate Academic Collaboration &rarr;
+              </a>
+              <a href="assets/cv/Dr_Khairy_Sayed_CV.pdf" download="Dr_Khairy_Sayed_CV.pdf" class="text-center px-6 py-3 rounded-xl text-sm font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/20 transition-all">
+                Download Academic Resume
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
     </section>
 
-    <section id="publications">
-      <h2>Selected Publications</h2>
-      <p>
-        My research covers renewable energy, smart grids,
-        electric vehicles, and intelligent energy management.
-        Verified publication records and DOI links will be added here.
-      </p>
-      <a class="button"
-         href="https://orcid.org/0000-0001-8871-5358">
-        Academic Profile
-      </a>
+    <!-- 3. ABOUT SECTION -->
+    <section id="about" class="py-16 md:py-20 bg-white dark:bg-slate-900 border-b border-slate-200/80 dark:border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Header -->
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">Academic Profile</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Biography & Professional Background</h2>
+          <div class="w-16 h-1 bg-cyan-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          
+          <!-- Biography Text (7 cols) -->
+          <div class="lg:col-span-7 space-y-5 text-slate-600 dark:text-slate-300 text-base leading-relaxed">
+            <p>
+              <strong>Dr. Khairy Sayed</strong> is an Associate Professor in the Department of Electrical Engineering at Sohag University, Egypt. He received his B.Sc. in Electrical Power and Machines in 1997 from Assiut University, Assiut, Egypt. He pursued advanced graduate studies at the Electrical Energy Saving Research Center, Graduate School of Electrical Engineering at Kyungnam University, Masan, South Korea, earning his Master’s degree in 2007. In 2013, he earned his Ph.D. in Electrical Engineering from Assiut University.
+            </p>
+            <p>
+              In 2024–2025, Dr. Sayed conducted advanced research in the United States as a prestigious <strong>Fulbright Research Scholar</strong> at the Smart Grid Interdependencies Laboratory, City College of New York (CCNY), City University of New York (CUNY). Previously, he was a Postdoctoral Researcher at the University of Ontario Institute of Technology in Canada (2016).
+            </p>
+            <p>
+              Dr. Sayed brings a uniquely valuable balance of industrial and academic expertise. Prior to his full-time academic appointment, he served for ten years (1998–2008) as a <strong>Power System Control Engineer</strong> at Middle Egypt Electricity Distribution Company, operating SCADA and Distribution Management Systems (DMS) for real-world municipal electricity grids.
+            </p>
+
+            <!-- Key Honors and Awards -->
+            <div class="pt-4">
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-3">Honors & Academic Distinctions</h3>
+              <div class="space-y-3">
+                
+                <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700">
+                  <span class="text-xl">🎖️</span>
+                  <div>
+                    <h4 class="font-bold text-sm text-slate-900 dark:text-white">Fulbright Research Scholar Fellowship (2024–2025)</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Awarded by the Fulbright Program / IIE & CCNY Smart Grid Interdependencies Lab, USA</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700">
+                  <span class="text-xl">🏆</span>
+                  <div>
+                    <h4 class="font-bold text-sm text-slate-900 dark:text-white">Sohag University Encouragement Award in Engineering Sciences (2016–2017)</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Conferred by Sohag University for distinguished research excellence in electrical engineering</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700">
+                  <span class="text-xl">📜</span>
+                  <div>
+                    <h4 class="font-bold text-sm text-slate-900 dark:text-white">Best Student Paper Award (IATC 2006, Chicago, USA)</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">57th Annual International Appliances Technical Conference, Crowne Plaza, Chicago</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Academic Degrees & Appointments Timeline (5 cols) -->
+          <div class="lg:col-span-5 space-y-8">
+            
+            <!-- Education Box -->
+            <div class="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+              <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2 mb-4">
+                <svg class="w-5 h-5 text-cyan-600 dark:text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                </svg>
+                <span>Academic Degrees</span>
+              </h3>
+
+              <div class="relative pl-6 space-y-6 before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-cyan-500/30">
+                
+                <!-- Ph.D. -->
+                <div class="relative">
+                  <div class="absolute -left-[27px] top-1 w-3 h-3 rounded-full bg-cyan-600 border-2 border-white dark:border-slate-800"></div>
+                  <div class="font-bold text-sm text-slate-900 dark:text-white">Ph.D. in Electrical Engineering</div>
+                  <div class="text-xs text-cyan-600 dark:text-cyan-400 font-semibold">Assiut University, Egypt &bull; 2013</div>
+                  <div class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Electrical Power and Machines Department</div>
+                </div>
+
+                <!-- M.Eng. -->
+                <div class="relative">
+                  <div class="absolute -left-[27px] top-1 w-3 h-3 rounded-full bg-cyan-600 border-2 border-white dark:border-slate-800"></div>
+                  <div class="font-bold text-sm text-slate-900 dark:text-white">M.Eng. in Electrical Engineering</div>
+                  <div class="text-xs text-cyan-600 dark:text-cyan-400 font-semibold">Kyungnam University, South Korea &bull; 2007</div>
+                  <div class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Electrical Energy Saving Research Center</div>
+                </div>
+
+                <!-- B.Sc. -->
+                <div class="relative">
+                  <div class="absolute -left-[27px] top-1 w-3 h-3 rounded-full bg-cyan-600 border-2 border-white dark:border-slate-800"></div>
+                  <div class="font-bold text-sm text-slate-900 dark:text-white">B.Sc. in Electrical Engineering</div>
+                  <div class="text-xs text-cyan-600 dark:text-cyan-400 font-semibold">Assiut University, Egypt &bull; 1997</div>
+                  <div class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Electrical Power and Machines Department</div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Experience Box -->
+            <div class="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+              <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2 mb-4">
+                <svg class="w-5 h-5 text-cyan-600 dark:text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span>Career Appointments</span>
+              </h3>
+
+              <div class="space-y-3.5 text-xs">
+                <div class="pb-2 border-b border-slate-200 dark:border-slate-700/60">
+                  <div class="font-bold text-slate-900 dark:text-white">Associate Professor (2019 – Present)</div>
+                  <div class="text-slate-500 dark:text-slate-400">Department of Electrical Engineering, Sohag University</div>
+                </div>
+                <div class="pb-2 border-b border-slate-200 dark:border-slate-700/60">
+                  <div class="font-bold text-slate-900 dark:text-white">Fulbright Research Scholar (2024 – 2025)</div>
+                  <div class="text-slate-500 dark:text-slate-400">Smart Grid Interdependencies Lab, CCNY / CUNY, New York, USA</div>
+                </div>
+                <div class="pb-2 border-b border-slate-200 dark:border-slate-700/60">
+                  <div class="font-bold text-slate-900 dark:text-white">Postdoctoral Researcher (2016)</div>
+                  <div class="text-slate-500 dark:text-slate-400">University of Ontario Institute of Technology, Canada</div>
+                </div>
+                <div class="pb-2 border-b border-slate-200 dark:border-slate-700/60">
+                  <div class="font-bold text-slate-900 dark:text-white">Assistant Professor (2013 – 2019)</div>
+                  <div class="text-slate-500 dark:text-slate-400">Department of Electrical Engineering, Sohag University</div>
+                </div>
+                <div>
+                  <div class="font-bold text-slate-900 dark:text-white">Power System Control Engineer (1998 – 2008)</div>
+                  <div class="text-slate-500 dark:text-slate-400">Middle Egypt Electricity Distribution Co. (SCADA / DMS)</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact and Academic Profiles</h2>
-      <p>Affiliation: Electrical Engineering Department,
-         Sohag University, Egypt</p>
-      <p>
-        <a href="https://orcid.org/0000-0001-8871-5358">ORCID</a>
-        |
-        <a href="https://www.linkedin.com/in/khairy-sayed-11996633b/">
-          LinkedIn
-        </a>
-      </p>
-      <p>
-        Additional academic links and professional contact details
-        will be added after verification.
-      </p>
+    <!-- 4. RESEARCH PILLARS SECTION -->
+    <section id="research" class="py-16 md:py-20 bg-slate-50 dark:bg-slate-950 border-b border-slate-200/80 dark:border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">Specialization & Innovation</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Research Pillars & Interests</h2>
+          <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">Pioneering solutions for clean energy integration, grid stability, intelligent conversion, and battery safety.</p>
+          <div class="w-16 h-1 bg-cyan-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Pillar 1: Renewable Energy Systems -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover-lift">
+            <div class="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center text-2xl mb-4">
+              ☀️
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Renewable Energy Systems & Integration</h3>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+              Modeling, MPPT optimization, and grid integration of large-scale photovoltaic (PV) generation, wind turbines, and hybrid energy conditioners.
+            </p>
+          </div>
+
+          <!-- Pillar 2: Smart Grids & Microgrids -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover-lift">
+            <div class="w-12 h-12 rounded-xl bg-cyan-100 dark:bg-cyan-950/60 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-2xl mb-4">
+              ⚡
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Smart Grids & Microgrids</h3>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+              AC/DC microgrid topologies, islanding protection, frequency and voltage stability, power quality mitigation, and resilient distribution automation.
+            </p>
+          </div>
+
+          <!-- Pillar 3: Electric Vehicles & Energy Management -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover-lift">
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-2xl mb-4">
+              🚗
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Electric Vehicles & Energy Management</h3>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+              Vehicle-to-Grid (V2G) frameworks, smart EV charging schedule optimization, onboard DC-DC converters, and multi-vehicle fleet energy management.
+            </p>
+          </div>
+
+          <!-- Pillar 4: Power Electronics & Energy Conversion -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover-lift">
+            <div class="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center text-2xl mb-4">
+              🔌
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Power Electronics & Conversion</h3>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+              Soft-switching high-efficiency DC-DC converters, resonant inverters, harmonic compensation, and high-frequency energy conversion topologies.
+            </p>
+          </div>
+
+          <!-- Pillar 5: AI for Energy Systems -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover-lift">
+            <div class="w-12 h-12 rounded-xl bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-2xl mb-4">
+              🧠
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">AI for Energy Systems</h3>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+              Artificial neural networks (ANN), fuzzy-neuro adaptive control, metaheuristics, and reinforcement learning for dynamic stability and fault classification.
+            </p>
+          </div>
+
+          <!-- Pillar 6: Digital Twins & Energy Hubs -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover-lift">
+            <div class="w-12 h-12 rounded-xl bg-purple-100 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400 flex items-center justify-center text-2xl mb-4">
+              🌐
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Digital Twins & Intelligent Energy Hubs</h3>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+              Physics-informed digital twins for real-time state estimation, predictive transmission analytics, and co-optimization of multi-carrier smart energy hubs.
+            </p>
+          </div>
+
+          <!-- Pillar 7: Battery Storage & BMS (spanning 3 cols on large) -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover-lift md:col-span-2 lg:col-span-3">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <div class="w-12 h-12 rounded-xl bg-teal-100 dark:bg-teal-950/60 text-teal-600 dark:text-teal-400 flex items-center justify-center text-2xl flex-shrink-0">
+                🔋
+              </div>
+              <div>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white">Battery Energy Storage Systems (BESS) & BMS</h3>
+                <p class="text-xs text-slate-600 dark:text-slate-300 mt-1 leading-relaxed">
+                  Advanced Battery Management Systems, short-term discharge State of Health (SoH) diagnostics, thermal safety protocols, and hybrid energy storage system (HESS) co-ordination for microgrid resilience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </section>
+
+    <!-- 5. PUBLICATIONS SECTION (INTERACTIVE REPOSITORY) -->
+    <section id="publications" class="py-16 md:py-20 bg-white dark:bg-slate-900 border-b border-slate-200/80 dark:border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div>
+            <span class="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">Scholarship & Output</span>
+            <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Research Publications</h2>
+            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
+              Directly verified from official ORCID (<a href="https://orcid.org/0000-0001-8871-5358" target="_blank" class="text-cyan-600 dark:text-cyan-400 underline font-mono">0000-0001-8871-5358</a>) and Scopus records.
+            </p>
+          </div>
+
+          <!-- Academic Profile Quick Links -->
+          <div class="flex items-center gap-2">
+            <a href="https://scholar.google.com/citations?user=gD0R0hQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"
+               class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-cyan-600 transition-colors">
+              Google Scholar &rarr;
+            </a>
+            <a href="https://www.scopus.com/authid/detail.url?authorId=24780869400" target="_blank" rel="noopener noreferrer"
+               class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-cyan-600 transition-colors">
+              Scopus &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Filter & Search Bar Container -->
+        <div class="p-4 md:p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/80 mb-8 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-center">
+            
+            <!-- Search Input -->
+            <div class="md:col-span-6 relative">
+              <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-slate-400">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </span>
+              <input type="text" id="pub-search-input" placeholder="Search publications by title, journal, or DOI..." 
+                     class="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+            </div>
+
+            <!-- Type Filter Dropdown -->
+            <div class="md:col-span-3">
+              <select id="pub-type-filter" class="w-full py-2.5 px-3 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                <option value="all">All Publication Types</option>
+                <option value="journal-article">Journal Articles</option>
+                <option value="conference-paper">Conference Papers</option>
+                <option value="book-chapter">Book Chapters</option>
+                <option value="preprint">Preprints</option>
+                <option value="review">Reviews</option>
+              </select>
+            </div>
+
+            <!-- Year Filter Dropdown -->
+            <div class="md:col-span-3">
+              <select id="pub-year-filter" class="w-full py-2.5 px-3 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                <option value="all">All Years</option>
+              </select>
+            </div>
+
+          </div>
+
+          <!-- Dynamic Counter Display -->
+          <div class="mt-3 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 px-1">
+            <span id="publications-count">Loading publications...</span>
+            <span class="text-[11px] text-cyan-600 dark:text-cyan-400 font-medium">Click any DOI to view paper directly</span>
+          </div>
+        </div>
+
+        <!-- Dynamic Publications Cards List -->
+        <div id="publications-list" class="space-y-4">
+          <!-- Populated by assets/js/publications.js -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="mt-8 text-center">
+          <button id="pub-load-more-btn" class="px-6 py-3 rounded-xl text-sm font-bold bg-slate-100 hover:bg-cyan-50 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors shadow-sm">
+            Load More Publications &darr;
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. PROJECTS & GRANTS SECTION -->
+    <section id="projects" class="py-16 md:py-20 bg-slate-50 dark:bg-slate-950 border-b border-slate-200/80 dark:border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">Sponsored Research</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Research Projects & Grants</h2>
+          <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">Collaborative initiatives, international grants, and operational testbeds.</p>
+          <div class="w-16 h-1 bg-cyan-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <!-- Project 1: Fulbright CCNY Collaboration -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover-lift flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-100 dark:bg-cyan-950/70 text-cyan-800 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-800/50">
+                  International Collaboration
+                </span>
+                <span class="text-xs text-slate-400 font-medium">2024 – 2025</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-snug">
+                Smart Grid Interdependencies & Resiliency Assessment
+              </h3>
+              <p class="text-xs font-semibold text-cyan-600 dark:text-cyan-400 mt-1">
+                Fulbright Research Scholar &bull; Smart Grid Interdependencies Lab, CCNY, USA
+              </p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+                Investigating key performance indicators and co-optimization frameworks for system resiliency in power networks integrating high penetrations of renewable energy and electric vehicle charging infrastructures.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex flex-wrap gap-1.5">
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">Smart Grids</span>
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">Resilience</span>
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">EV Integration</span>
+            </div>
+          </div>
+
+          <!-- Project 2: AI Digital Twins -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover-lift flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-100 dark:bg-indigo-950/70 text-indigo-800 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800/50">
+                  Active Research
+                </span>
+                <span class="text-xs text-slate-400 font-medium">2024 – 2026</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-snug">
+                Physics-Informed AI Digital Twins for Multi-Carrier Smart Energy Hubs
+              </h3>
+              <p class="text-xs font-semibold text-cyan-600 dark:text-cyan-400 mt-1">
+                Principal Researcher &bull; International Collaborative Group
+              </p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+                Developing physics-informed neural network models and real-time digital twin architectures to co-optimize multi-carrier energy networks, transmission expansion, and battery storage under stochastic renewable fluctuations.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex flex-wrap gap-1.5">
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">Digital Twins</span>
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">Physics-Informed AI</span>
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">Energy Hubs</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Battery Storage Health & BMS -->
+          <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm hover-lift flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-teal-100 dark:bg-teal-950/70 text-teal-800 dark:text-teal-300 border border-teal-200 dark:border-teal-800/50">
+                  Applied Energy Storage
+                </span>
+                <span class="text-xs text-slate-400 font-medium">2023 – 2025</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-snug">
+                Battery Energy Storage State-of-Health (SoH) Diagnostics
+              </h3>
+              <p class="text-xs font-semibold text-cyan-600 dark:text-cyan-400 mt-1">
+                Lead Researcher &bull; Department of Electrical Engineering, Sohag University
+              </p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+                Formulating short-term discharge-based analytical models and intelligent estimation algorithms for assessing lithium-ion battery degradation and extending lifecycle in microgrid applications.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex flex-wrap gap-1.5">
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">Lithium-ion</span>
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">BMS</span>
+              <span class="text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">State of Health</span>
+            </div>
+          </div>
+
+          <!-- Project 4: Configurable Placeholder for New Grant / Project -->
+          <div class="p-6 rounded-2xl bg-dashed border-2 border-dashed border-cyan-400/40 dark:border-cyan-500/30 bg-cyan-50/30 dark:bg-cyan-950/20 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-200/60 dark:bg-cyan-900/60 text-cyan-900 dark:text-cyan-200">
+                  [Placeholders for Funded Grants]
+                </span>
+                <span class="text-xs text-cyan-700 dark:text-cyan-400 font-medium">[Project Period]</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-snug">
+                [Add Your Additional Funded Grant / Project Here]
+              </h3>
+              <p class="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-1">
+                [Role: PI / Co-PI / Partner] &bull; [Funding Agency: e.g. STDF / Horizon / ASRT]
+              </p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+                You can easily add new research grants and funded projects by simply editing the file <code class="px-1 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-[11px]">data/projects.json</code>. No coding required.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-cyan-200/40 dark:border-cyan-800/40 text-xs text-cyan-600 dark:text-cyan-400 font-medium">
+              &bull; File location: <code>data/projects.json</code>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. TEACHING & MENTORING SECTION -->
+    <section id="teaching" class="py-16 md:py-20 bg-white dark:bg-slate-900 border-b border-slate-200/80 dark:border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">Academic Instruction</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Teaching & Mentorship</h2>
+          <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">Educating next-generation electrical engineers and guiding graduate researchers at Sohag University.</p>
+          <div class="w-16 h-1 bg-cyan-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <div class="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+            <span class="px-2.5 py-0.5 rounded text-xs font-bold bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300">Undergraduate</span>
+            <h3 class="text-base font-bold text-slate-900 dark:text-white mt-2">Power Electronics & Energy Conversion</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Faculty of Engineering &bull; Sohag University</p>
+            <p class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+              In-depth coverage of converter circuits, PWM switching, inverter controls, thermal design, and renewable power interfaces.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+            <span class="px-2.5 py-0.5 rounded text-xs font-bold bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300">Undergraduate & Graduate</span>
+            <h3 class="text-base font-bold text-slate-900 dark:text-white mt-2">Renewable Energy & Microgrid Integration</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Faculty of Engineering &bull; Sohag University</p>
+            <p class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+              Photovoltaic systems, wind turbines, energy storage integration, islanding detection, and microgrid frequency/voltage stabilization.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+            <span class="px-2.5 py-0.5 rounded text-xs font-bold bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300">Undergraduate</span>
+            <h3 class="text-base font-bold text-slate-900 dark:text-white mt-2">Electric Machines & Power Distribution</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Faculty of Engineering &bull; Sohag University</p>
+            <p class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+              Principles of AC/DC machines, transformers, municipal distribution network planning, load-flow, and SCADA automation foundations.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 8. CV SECTION (DOWNLOAD & PREVIEW) -->
+    <section id="cv" class="py-16 md:py-20 bg-slate-50 dark:bg-slate-950 border-b border-slate-200/80 dark:border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-4xl mx-auto bg-white dark:bg-slate-900 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-800 shadow-xl text-center">
+          
+          <div class="w-16 h-16 rounded-2xl bg-cyan-100 dark:bg-cyan-950/60 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-3xl mx-auto mb-4">
+            📄
+          </div>
+
+          <span class="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">Curriculum Vitae</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Academic Curriculum Vitae</h2>
+          <p class="mt-3 text-slate-600 dark:text-slate-300 text-sm max-w-2xl mx-auto leading-relaxed">
+            Download the comprehensive academic CV of Dr. Khairy Sayed, including complete educational history, research grants, peer-reviewed journal articles, conference papers, and international scholarly appointments.
+          </p>
+
+          <div class="mt-8 flex flex-wrap justify-center gap-4">
+            <a href="assets/cv/Dr_Khairy_Sayed_CV.pdf" download="Dr_Khairy_Sayed_CV.pdf" 
+               class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl text-sm font-bold bg-cyan-600 hover:bg-cyan-700 text-white shadow-lg hover:shadow-cyan-500/25 transition-all">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <span>Download CV (PDF Document)</span>
+            </a>
+
+            <a href="assets/cv/Dr_Khairy_Sayed_CV.pdf" target="_blank" 
+               class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-cyan-500 transition-all">
+              <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+              <span>Open in Browser</span>
+            </a>
+          </div>
+
+          <!-- Helpful note on how to replace CV -->
+          <div class="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 text-xs text-slate-400">
+            <span>Updating your CV is simple: replace the file located at <code class="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-cyan-600 dark:text-cyan-400">assets/cv/Dr_Khairy_Sayed_CV.pdf</code></span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 9. CONTACT & ACADEMIC INQUIRIES SECTION -->
+    <section id="contact" class="py-16 md:py-20 bg-white dark:bg-slate-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">Connect</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Contact & Collaboration Inquiries</h2>
+          <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">Get in touch for research inquiries, visiting researcher positions, or academic discussions.</p>
+          <div class="w-16 h-1 bg-cyan-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          
+          <!-- Contact Information Card (5 cols) -->
+          <div class="lg:col-span-5 space-y-4">
+            
+            <div class="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 space-y-4">
+              <h3 class="text-base font-bold text-slate-900 dark:text-white">Institutional Affiliation</h3>
+              
+              <div class="flex items-start gap-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+                <svg class="w-5 h-5 text-cyan-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+                <div>
+                  <p class="font-bold text-slate-900 dark:text-white">Department of Electrical Engineering</p>
+                  <p>Faculty of Engineering &bull; Sohag University</p>
+                  <p class="text-slate-500 dark:text-slate-400">New Sohag City, Sohag Governorate, Egypt</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 pt-3 border-t border-slate-200 dark:border-slate-700/60">
+                <svg class="w-5 h-5 text-cyan-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <div>
+                  <p class="font-bold text-slate-900 dark:text-white">University Email Placeholder</p>
+                  <p class="font-mono text-cyan-600 dark:text-cyan-400">[Add your university email here]</p>
+                  <p class="text-[11px] text-slate-400 mt-0.5">e.g. khairy_sayed@eng.sohag.edu.eg</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 pt-3 border-t border-slate-200 dark:border-slate-700/60">
+                <svg class="w-5 h-5 text-cyan-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                </svg>
+                <div>
+                  <p class="font-bold text-slate-900 dark:text-white">Faculty Website</p>
+                  <a href="http://www.sohag-univ.edu.eg/faceng/" target="_blank" rel="noopener noreferrer" class="text-cyan-600 dark:text-cyan-400 underline text-xs">
+                    sohag-univ.edu.eg/faceng
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Profile Links Quick Box -->
+            <div class="p-4 rounded-xl bg-cyan-50 dark:bg-cyan-950/40 border border-cyan-200 dark:border-cyan-800/50 text-xs text-cyan-900 dark:text-cyan-200">
+              <span class="font-bold block mb-1">Academic Identifiers:</span>
+              <p>&bull; <strong>ORCID:</strong> 0000-0001-8871-5358</p>
+              <p>&bull; <strong>Scopus Author ID:</strong> 24780869400</p>
+              <p>&bull; <strong>ResearcherID:</strong> E-6498-2015</p>
+            </div>
+
+          </div>
+
+          <!-- Academic Inquiry Form (7 cols) -->
+          <div class="lg:col-span-7">
+            <div class="p-6 md:p-8 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+              <h3 class="text-base font-bold text-slate-900 dark:text-white mb-2">Send an Academic or Collaboration Message</h3>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mb-6">
+                This form prepares a direct email inquiry for visiting research positions, joint papers, or general scholarly communication.
+              </p>
+
+              <form onsubmit="handleContactSubmit(event)" class="space-y-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">Your Name</label>
+                    <input type="text" id="contact-name" required placeholder="Prof. / Dr. / Researcher" 
+                           class="w-full px-3.5 py-2.5 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">Your Email</label>
+                    <input type="email" id="contact-email" required placeholder="name@institution.edu" 
+                           class="w-full px-3.5 py-2.5 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                  </div>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">Inquiry Purpose</label>
+                  <select id="contact-purpose" class="w-full px-3.5 py-2.5 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                    <option value="Visiting Researcher Invitation">Visiting Researcher / Professorship Invitation</option>
+                    <option value="Joint Grant / Research Proposal">Joint Grant / Project Collaboration</option>
+                    <option value="Paper Collaboration / Inquiries">Research Publication Inquiry</option>
+                    <option value="Student Mentorship / Postgraduate Inquiry">Postgraduate / Research Mentorship</option>
+                    <option value="Other">General Scholarly Inquiry</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">Message</label>
+                  <textarea id="contact-message" rows="4" required placeholder="Please outline your project idea, research proposal, or institutional inquiry..." 
+                            class="w-full px-3.5 py-2.5 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-cyan-500"></textarea>
+                </div>
+
+                <button type="submit" class="w-full py-3 rounded-xl text-sm font-bold bg-cyan-600 hover:bg-cyan-700 text-white shadow-md transition-all">
+                  Send Collaboration Message &rarr;
+                </button>
+              </form>
+
+              <div id="contact-feedback" class="hidden mt-3 p-3 rounded-lg text-xs font-medium text-emerald-700 bg-emerald-100 dark:bg-emerald-950 dark:text-emerald-300">
+                Opening your email client to send message...
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>Dr. Khairy Sayed | Academic Website</p>
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-10 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        
+        <!-- Identity in Footer -->
+        <div class="text-center md:text-left">
+          <div class="text-sm font-bold text-white">Dr. Khairy Sayed</div>
+          <p class="text-slate-400 text-xs mt-0.5">Associate Professor &bull; Electrical Engineering Department &bull; Sohag University, Egypt</p>
+          <p class="text-[11px] text-slate-500 mt-1">Former Fulbright Research Scholar, City College of New York (CCNY), USA</p>
+        </div>
+
+        <!-- Quick Section Links -->
+        <div class="flex flex-wrap justify-center gap-4 text-xs">
+          <a href="#home" class="hover:text-cyan-400 transition-colors">Home</a>
+          <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+          <a href="#research" class="hover:text-cyan-400 transition-colors">Research</a>
+          <a href="#publications" class="hover:text-cyan-400 transition-colors">Publications</a>
+          <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
+          <a href="#teaching" class="hover:text-cyan-400 transition-colors">Teaching</a>
+          <a href="#cv" class="hover:text-cyan-400 transition-colors">CV</a>
+          <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
+        </div>
+
+        <!-- Academic Badges in Footer -->
+        <div class="flex items-center gap-2">
+          <a href="https://scholar.google.com/citations?user=gD0R0hQAAAAJ&hl=en" target="_blank" class="hover:text-cyan-400" title="Google Scholar">Google Scholar</a>
+          <span>&bull;</span>
+          <a href="https://orcid.org/0000-0001-8871-5358" target="_blank" class="hover:text-cyan-400" title="ORCID">ORCID</a>
+          <span>&bull;</span>
+          <a href="https://www.scopus.com/authid/detail.url?authorId=24780869400" target="_blank" class="hover:text-cyan-400" title="Scopus">Scopus</a>
+        </div>
+
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-500">
+        <div>
+          &copy; <span class="current-year">2026</span> Dr. Khairy Sayed. All academic and educational rights reserved.
+        </div>
+        <div>
+          Static &bull; Fast &bull; Hosted on GitHub Pages Free Platform
+        </div>
+      </div>
+
+    </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/publications.js"></script>
+  
+  <script>
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('contact-name').value;
+      const email = document.getElementById('contact-email').value;
+      const purpose = document.getElementById('contact-purpose').value;
+      const message = document.getElementById('contact-message').value;
+
+      const subject = encodeURIComponent(`[Academic Inquiry - ${purpose}] from ${name}`);
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPurpose: ${purpose}\n\nMessage:\n${message}`);
+
+      // Uses mailto link with placeholder recipient
+      window.location.href = `mailto:?subject=${subject}&body=${body}`;
+
+      const feedback = document.getElementById('contact-feedback');
+      if (feedback) {
+        feedback.classList.remove('hidden');
+      }
+    }
+  </script>
 </body>
 </html>
